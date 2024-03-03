@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ashen Cabs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section id="nav">
+        <div class="nav-bar">
+            <a href="#" class="nav-content logo-ATC"><img src="./assets/ATC-C-BC.png" class="logo" alt="ATC logo"></a>
+            <a href="#" class="nav-content nav-hide">Services</a>
+            <a href="#" class="nav-content nav-hide">Testmonials</a>
+            <a href="#about-us" class="nav-content nav-hide">About Us</a>
+            <a href="#" class="nav-content nav-hide">Contact</a>
+            <a href="#" class="nav-content menu" onclick="showMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-menu-button-wide menu-icon" viewBox="0 0 16 16">
+                <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z"/>
+                <path d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0M0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
+            </svg></a>
+        </div>
+    </section>
+
+    <section id="sidebar">
+        <div class="side-bar">
+            <a href="#" class="side-nav-content" onclick="hidemenu()"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-square close-icon" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg></a>
+            <a href="#" class="side-nav-content">Services</a>
+            <a href="#" class="side-nav-content">Testmonials</a>
+            <a href="#" class="side-nav-content">About Us</a>
+            <a href="#" class="side-nav-content">Contact</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="slider-container" id="slider">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="./assets/altoNew.png" alt="alto"></swiper-slide>
+                <swiper-slide><img src="./assets/alto2.jpg" alt="alto2"></swiper-slide>
+                <swiper-slide><img src="./assets/wagonRnew.png" alt="waganR"></swiper-slide>
+                <swiper-slide><img src="./assets/Stringrey.jpg" alt="stringrey"></swiper-slide>
+                <swiper-slide><img src="./assets/prius.png" alt="prius"></swiper-slide>
+                <swiper-slide><img src="./assets/aqua.jpg" alt="aqua"></swiper-slide>
+                <swiper-slide><img src="./assets/premio.jpg" alt="premio"></swiper-slide>
+                <swiper-slide><img src="./assets/hiaceNew.jpg" alt="Hiace"></swiper-slide>
+                <swiper-slide><img src="./assets/NewHiace.jpg" alt="NewHiace"></swiper-slide>
+                <swiper-slide><img src="./assets/minuBus.jpg" alt="miniBus"></swiper-slide>
+                <swiper-slide><img src="./assets/LankaBus.jpg" alt="LankaBus"></swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+
+    <section>
+        <div class="about-us-container" id="about-us">
+          <div class="about-head">Who are we?</div>
+          <div class="about-sub-head">Affordable Chauffeur Services Just For You.</div>
+
+          <div class="about-grid">
+            <div class="box box1">
+              <img class="img-who-are-we" src="./assets/who_we_are-removebg-preview.png" alt="who are we">
+            </div>
+            <div class="box box2">
+              <p class="about-para">
+                We have been well established since 2005 and hold over a decade of experience in the industry 
+                providing a reliable, safe and convenient taxi service to all our customers. From the moment you contact 
+                us to the moment your chauffeur unlocks your door; we are there for you. <br><br>
+                
+                We offer services with Car, Van, Lorry and Bus. We have a wide range of A/C and Non-A/C vehicles.
+
+              </p>
+            </div>
+            <div class="box box3">
+              <h4 class="our-mission">Our Mission</h4>
+              <p class="about-para mission-para">We are committed to providing the best chauffeur service by ensuring that you reach your destination 
+                safely and comfortably at all times.</p>
+            </div>
+          </div>
+        </div>    
+    </section>
+
+    <script>
+
+            var menu = document.querySelector(".menu");
+            var sideBar = document.querySelector(".side-bar");
+
+        function showMenu(){
+            
+
+            sideBar.style.marginRight= "0px";
+            sideBar.style.transition= "0.8s";
+        }
+
+        function hidemenu(){
+
+
+            sideBar.style.marginRight= "-360px";
+            sideBar.style.transition= "0.8s";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</body>
+</html>
