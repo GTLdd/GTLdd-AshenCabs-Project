@@ -243,10 +243,20 @@ swiper-container {
         height: 60%;
     }
 
+    swiper-slide img {
+        display: block;
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+      }
+    
+
     .about-us-container{
         margin-top: 670px;
         height: 760px;
     }
+
+
 
 
 }
