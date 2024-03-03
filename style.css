@@ -240,13 +240,13 @@ swiper-container {
 
     swiper-container {
         width: 100%;
-        height: 60%;
+        height: 100%;
     }
 
     swiper-slide img {
         display: block;
         width: 70%;
-        height: 70%;
+        height: 40%;
         object-fit: cover;
       }
     
