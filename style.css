@@ -427,14 +427,21 @@ swiper-container {
     }
 
     .testimonial-container{
-        margin-top: 1200.5%;
+        margin-top: 1180.5%;
     }
+
+    swiper-container {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        z-index: 0;
+      }
 
     swiper-slide {
         background-position: center;
         background-size: cover;
         width: 350px;
-        height: 570px;
+        height: 600px;
         border-radius: 20px;
         
       }
@@ -442,7 +449,7 @@ swiper-container {
       swiper-slide img {
         display: block;
         width: 100%;
-        height: 570px;
+        height: 600px;
         border-radius: 18px;
       }
 
