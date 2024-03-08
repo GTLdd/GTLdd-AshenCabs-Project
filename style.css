@@ -217,7 +217,6 @@ html:focus-within {
 }
 
 
-
 .service-img{
     width: 90%;
     height: 200px;
@@ -342,7 +341,7 @@ html:focus-within {
     }
 
     .service-container{
-        margin-top: 315%;
+        margin-top: 325%;
         height: 420%;
         
     }
@@ -350,6 +349,7 @@ html:focus-within {
     .service-grid{
         display: block;
         margin-top: 150PX;
+        margin-left: 0px;
     }
 
     .serviceBox{
