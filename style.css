@@ -427,12 +427,12 @@ swiper-container {
     }
 
     .testimonial-container{
-        margin-top: 1180.5%;
+        margin-top: 1190.5%;
     }
 
     swiper-container {
-        width: 100%;
-        padding-top: 100px;
+        width: 90%;
+        padding-top: 70px;
         padding-bottom: 50px;
         z-index: 0;
       }
