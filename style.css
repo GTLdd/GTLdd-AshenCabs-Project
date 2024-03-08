@@ -347,7 +347,7 @@ swiper-container {
         height: 120%;
     }
 
-    .about-head, .service-head{
+    .about-head, .service-head, .testimonial-head{
         font-size: 25px;
     }
 
@@ -431,8 +431,8 @@ swiper-container {
     }
 
     swiper-container {
-        width: 90%;
-        padding-top: 70px;
+        width: 85%;
+        padding-top: 40px;
         padding-bottom: 50px;
         z-index: 0;
       }
