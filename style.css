@@ -85,26 +85,6 @@ html:focus-within {
     z-index: -1;
 }
 
-swiper-container {
-    width: 50%;
-    height: 80%;
-  }
-
-  swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 
 .about-us-container{
     display: flex;
@@ -181,6 +161,119 @@ swiper-container {
     object-fit: cover;
 }
 
+.service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position:absolute;
+    margin-top: 85%;
+    height: 1200px;
+    width: 100%;
+    color: #F0F0F0;
+    background-color: #11235A ;
+    z-index: -1;
+    
+}
+
+
+
+.service-head, .footer-head{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #F0F0F0;
+    width: 82%;
+    height: 65px;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    position: absolute;
+    height: 900px;
+    width: 82%;
+    margin-top: 10%;
+    margin-left: 20px;
+
+}
+
+.serviceBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    /*border: 2px #F0F0F099 solid;*/
+    border-radius: 10px;
+    box-shadow: 2px 2px #F0F0F098;
+
+}
+
+
+
+.service-img{
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.service-para{
+    width: 90%;
+    margin-top: 25px;
+    color: #F5F7F899;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 0.6cm;
+    
+}
+
+.service-sub-head{
+    font-size: 25px;
+    color: #F5F7F8;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.service-flex{
+    display: flex;
+    width: 90%;
+    align-items: right;
+}
+
+/*
+<section>
+        <div class="slider-container" id="slider">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="./assets/altoNew.png" alt="alto"></swiper-slide>
+                <swiper-slide><img src="./assets/alto2.jpg" alt="alto2" class="alto-swiper"></swiper-slide>
+                <swiper-slide><img src="./assets/wagonRnew.png" alt="waganR"></swiper-slide>
+                <swiper-slide><img src="./assets/Stringrey.jpg" alt="stringrey"></swiper-slide>
+                <swiper-slide><img src="./assets/prius.png" alt="prius"></swiper-slide>
+                <swiper-slide><img src="./assets/aqua.jpg" alt="aqua"></swiper-slide>
+                <swiper-slide><img src="./assets/premio.jpg" alt="premio"></swiper-slide>
+                <swiper-slide><img src="./assets/hiaceNew.jpg" alt="Hiace"></swiper-slide>
+                <swiper-slide><img src="./assets/NewHiace.jpg" alt="NewHiace"></swiper-slide>
+                <swiper-slide><img src="./assets/minuBus.jpg" alt="miniBus"></swiper-slide>
+                <swiper-slide><img src="./assets/LankaBus.jpg" alt="LankaBus"></swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+*/
+
+
+
 
 
 
@@ -242,22 +335,44 @@ swiper-container {
         height: 500px;
     }
 
-    swiper-container {
-        width: 100%;
-        height: 100%;
-    }
-
-    swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 55%;
-        object-fit: cover;
-      }
-    
 
     .about-us-container{
         margin-top: 670px;
         height: 760px;
+    }
+
+    .service-container{
+        margin-top: 315%;
+        height: 420%;
+        
+    }
+
+    .service-grid{
+        display: block;
+        margin-top: 150PX;
+    }
+
+    .serviceBox{
+        height: 450PX;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 60px;
+        box-shadow: 2px 2px 3px 3px;
+        
+    }
+
+    .service-img{
+        width: 90%;
+        height: 200px;
+    
+    }
+
+    .service-sub-head{
+        font-size: 20px;
+    }
+
+    .service-para{
+        font-size: 12px;
     }
 
     
