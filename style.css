@@ -255,7 +255,7 @@ html:focus-within {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background-color: #F0F0F075;
     margin-top: 164%;
@@ -283,23 +283,105 @@ swiper-container {
     padding-top: 100px;
     padding-bottom: 50px;
     z-index: 0;
+    border-radius: 10px;
   }
 
   swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 550px;
+    height: 600px;
+    border-radius: 10px;
     
   }
 
   swiper-slide img {
     display: block;
     width: 100%;
-    height: 550px;
+    height: 600px;
     border-radius: 10px;
   }
 
+  .footer-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 225%;
+    height: 400px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #11235A;
+  }
+
+  .footer-head{
+    color: #F0F0F0;
+    margin-top: -10px;
+  }
+
+  .footer-grid{
+    display: grid;
+    width: 82%;
+    grid-template-rows: 300px;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .footer-sub-head, .footer-tags{
+    font-size: 17px;
+    color: #F0F0F0;
+    line-height: 0.8cm;
+  }
+
+  .f2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .f3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .f4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer-ul, .footer-tags{
+    padding: 0;
+    margin: 0;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  .icon{
+    color: white;
+
+  }
+
+  .footer-icons{
+    padding: 8px;
+    margin: 0;
+  }
+
+  .footer-ul{
+    margin-top: 25px;
+  }
+
+  .tags{
+    margin-top: -5px
+  }
+
+  li{
+    list-style: none;
+  }
 
 /*
 <section>
@@ -442,7 +524,7 @@ swiper-container {
         background-size: cover;
         width: 300px;
         height: 600px;
-        border-radius: 20px;
+        border-radius: 18px;
         
       }
     
@@ -453,6 +535,24 @@ swiper-container {
         border-radius: 18px;
       }
 
+      .footer-container{
+        margin-top: 1500%;
+        height: 900px;
+      }
+
+      .footer-grid{
+        display: block;
+        margin-top: -10px;
+      }
+
+      .footer-box{
+        margin-bottom: 80px;
+        
+      }
+
+      .f4{
+        margin-left: -10px;
+      }
 
 
     
