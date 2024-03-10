@@ -627,7 +627,7 @@
             }
 
             .slider-container{
-                height: 500px;
+                height: 400px;
             }
 
             .swiper-img{
@@ -690,6 +690,10 @@
 
             .LankaBus{
                 margin-top: -330px;
+            }
+
+            .testimonial-container{
+                height: 1300px;
             }
 
 
