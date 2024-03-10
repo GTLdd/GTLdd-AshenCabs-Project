@@ -630,14 +630,22 @@
             margin-top: -310px;
         }
 
+        .altoNew{
+            width: 80%;
+        }
+
         .alto{
             height: 250px;
-            width: 60%;
+            width: 80%;
         }
 
         .prius{
             height: 360px;
             margin-top: -330px;
+        }
+
+        .wagonRnew{
+            width: 80%;
         }
 
         .Stringrey{
