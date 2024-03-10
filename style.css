@@ -538,7 +538,7 @@
 
             .about-us-container{
                 margin-top: 550px;
-                height: 860px;
+                height: 880px;
             }
 
             .service-container{
@@ -606,7 +606,7 @@
             }
 
             .footer-container{
-                margin-top: 1500%;
+                margin-top: 1400%;
                 height: 900px;
                 font-size: 15px;
                 z-index: -1;
@@ -652,11 +652,13 @@
 
             .wagonRnew{
                 width: 80%;
+                height: 180px ;
+                margin-top: -330px;
             }
 
             .Stringrey{
-                margin-top: -330px;
-                height: 250px;
+                margin-top: -340px;
+                height: 220px;
                 width: 75%;
             }
 
