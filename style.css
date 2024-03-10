@@ -580,6 +580,8 @@
                 margin-top: 1185.5%;
             }
 
+            
+
             swiper-container {
                 width: 85%;
                 padding-top: 40px;
@@ -624,6 +626,10 @@
                 margin-left: -10px;
             }
 
+            .slider-container{
+                height: 500px;
+            }
+
             .swiper-img{
                 height: 200px ;
                 width:70% ;
@@ -661,14 +667,14 @@
             }
 
             .premio{
-                width: 80%;
+                width: 85%;
                 height: 220px;
                 margin-top: -330px;
             }
 
             .hiaceNew{
                 height: 270px;
-                width: 80%;
+                width: 85%;
                 margin-top: -345px;
             }
 
@@ -679,7 +685,7 @@
             .miniBus{
                 height: 300px;
                 margin-top: -450px;
-                width: 80%;
+                width: 85%;
             }
 
             .LankaBus{
