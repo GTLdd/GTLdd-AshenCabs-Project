@@ -537,8 +537,8 @@
 
 
             .about-us-container{
-                margin-top: 570px;
-                height: 760px;
+                margin-top: 550px;
+                height: 860px;
             }
 
             .service-container{
@@ -606,7 +606,7 @@
             }
 
             .footer-container{
-                margin-top: 1600%;
+                margin-top: 1500%;
                 height: 900px;
                 font-size: 15px;
                 z-index: -1;
@@ -693,7 +693,7 @@
             }
 
             .testimonial-container{
-                height: 1600px;
+                height: 1400px;
             }
 
 
