@@ -85,7 +85,94 @@
         z-index: -1;
     }
 
+    
 
+    .swiper{
+        height: 400px;
+        width: 80%;
+        margin-top: -60px;
+    }
+
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        position: relative;
+        background: #fff;
+        display: flex;
+        margin-top: -100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-img{
+        height: 400px ;
+        width:50% ;
+        margin-top: -250px;
+    }
+
+    .altoNew{
+        height: 330px;
+        width: 47%;
+    }
+
+    .alto{
+        width: 52%;
+    }
+
+
+    .wagonRnew{
+        height: 330px;
+        margin-top: -265px;
+    }
+
+    .Stringrey{
+        height: 370px;
+        width: 47%;
+        margin-top: -270px;;
+    }
+
+    .prius{
+        height: 550px;
+        width: 44%;
+    }
+
+    .aqua{
+        width: 45%;
+    }
+
+    .premio{
+        width: 52%;
+        height: 340px;
+    }
+
+    .hiace{
+        height: 380px;
+        width: 45%;
+        margin-top: -28px;
+    }
+
+    .hiaceNew{
+        height: 435px;
+    }
+
+    .NewHiace{
+        height: 340px;
+        width: 42%;
+    }
+
+    .LankaBus{
+        width: 40%;
+        height: 400px;
+        margin-top: -220px;
+    }
+
+    .miniBus{
+        margin-top: -150px;
+        height: 450px;
+        margin-top: -380px;
+    }
+
+    
     .about-us-container{
         display: flex;
         flex-direction: column;
@@ -279,28 +366,28 @@
     }
 
     swiper-container {
-        width: 70%;
-        padding-top: 100px;
+        width: 100%;
+        padding-top: 50px;
         padding-bottom: 50px;
-        z-index: 0;
-        border-radius: 10px;
-    }
-
-    swiper-slide {
+        height: 700px;
+      }
+  
+      swiper-slide {
         background-position: center;
         background-size: cover;
-        width: 300px;
-        height: 600px;
-        border-radius: 10px;
-        
-    }
-
-    swiper-slide img {
+        width: 270px;
+        height: 500px;
+        margin-top: 70px;
+      }
+  
+      swiper-slide img {
         display: block;
         width: 100%;
-        height: 600px;
+        height: 500px;
         border-radius: 10px;
-    }
+      }
+
+
 
     .footer-container{
         position: absolute;
@@ -384,27 +471,7 @@
         list-style: none;
     }
 
-    /*
-    <section>
-            <div class="slider-container" id="slider">
-                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-                    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-                    <swiper-slide><img src="./assets/altoNew.png" alt="alto"></swiper-slide>
-                    <swiper-slide><img src="./assets/alto2.jpg" alt="alto2" class="alto-swiper"></swiper-slide>
-                    <swiper-slide><img src="./assets/wagonRnew.png" alt="waganR"></swiper-slide>
-                    <swiper-slide><img src="./assets/Stringrey.jpg" alt="stringrey"></swiper-slide>
-                    <swiper-slide><img src="./assets/prius.png" alt="prius"></swiper-slide>
-                    <swiper-slide><img src="./assets/aqua.jpg" alt="aqua"></swiper-slide>
-                    <swiper-slide><img src="./assets/premio.jpg" alt="premio"></swiper-slide>
-                    <swiper-slide><img src="./assets/hiaceNew.jpg" alt="Hiace"></swiper-slide>
-                    <swiper-slide><img src="./assets/NewHiace.jpg" alt="NewHiace"></swiper-slide>
-                    <swiper-slide><img src="./assets/minuBus.jpg" alt="miniBus"></swiper-slide>
-                    <swiper-slide><img src="./assets/LankaBus.jpg" alt="LankaBus"></swiper-slide>
-                </swiper-container>
-            </div>
-        </section>
-    */
-
+   
 
 
 
@@ -555,6 +622,60 @@
 
         .f4{
             margin-left: -10px;
+        }
+
+        .swiper-img{
+            height: 200px ;
+            width:55% ;
+            margin-top: -310px;
+        }
+
+        .alto{
+            height: 250px;
+            width: 60%;
+        }
+
+        .prius{
+            height: 360px;
+            margin-top: -330px;
+        }
+
+        .Stringrey{
+            margin-top: -330px;
+            height: 250px;
+            width: 52%;
+        }
+
+        .aqua{
+            height: 250px;
+            width: 55%;
+            margin-top: -330px;
+        }
+
+        .premio{
+            width: 75%;
+            height: 220px;
+            margin-top: -330px;
+        }
+
+        .hiaceNew{
+            height: 270px;
+            width: 65%;
+            margin-top: -345px;
+        }
+
+        .NewHiace{
+            margin-top: -345px;
+        }
+
+        .miniBus{
+            height: 300px;
+            margin-top: -450px;
+            width: 59%;
+        }
+
+        .LankaBus{
+            margin-top: -330px;
         }
 
 
