@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.privacy-navBar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    box-shadow: 4px 4px 10px #11235A;
+    z-index: 1;
+}
+
+.logo{
+    height: 50px;
+    width: 85px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.logo-ATC{
+    margin-left: 30px;
+}
+
+.nav-content:first-child{
+    margin-right: auto;
+}
+
+.back{
+    color: #11235A ;
+    margin-right: 30px;
+}
+
+.privacy-container{
+    height: 2800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.privacy-head{
+    position: absolute;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #11235A;
+    width: 82%;
+    height: 65px;
+    color: #11235A;
+
+}
+
+.attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7
+{
+    display: grid;
+    position: absolute;
+    height: 320px;
+    width: 82%;
+    margin-top: 230px;
+    grid-template-rows: 320px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.attraction-grid-2{
+    margin-top: 580px;
+}
+
+.attraction-grid-3{
+    margin-top: 930px;
+}
+
+.attraction-grid-4{
+    margin-top: 1280px;
+}
+
+.attraction-grid-5{
+    margin-top: 1630px;
+}
+
+.attraction-grid-6{
+    margin-top: 1980px;
+}
+
+.attraction-grid-7{
+    margin-top: 2330px;
+}
+
+
+
+.attraction-img{
+    height: 250px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.attraction-place-info{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #11235A;
+    margin-top: 12px;
+}
+
+
+@media(max-width: 640px){
+
+    .privacy-container{
+        height: 6100px;
+        width: 100%;
+    }
+
+    .privacy-head{
+        font-size: 25px;
+    }
+
+    .attraction-place-info{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7{
+        display: block;
+        height: 200px;   
+        width: 90%;  
+
+    }
+
+    .attraction-grid-2{
+        margin-top: 1050px;
+    }
+    
+    .attraction-grid-3{
+        margin-top: 1870px;
+    }
+
+    .attraction-grid-4{
+        margin-top: 2690px;
+    }
+
+    .attraction-grid-5{
+        margin-top: 3510px;
+    }
+
+    .attraction-grid-6{
+        margin-top: 4330px;
+    }
+
+    .attraction-grid-7{
+        margin-top: 5150px;
+    }
+
+    .attraction-grid-8{
+        margin-top: 5970px;
+    }
+
+    .attraction-grid-9{
+        margin-top: 6790px;
+    }
+
+    .attraction-grid-10{
+        margin-top: 7610px;
+    }
+    
+    .attraction-grid-11{
+        margin-top: 8430px;
+    }
+    
+    .attraction-grid-12{
+        margin-top: 9250px;
+    }
+    
+    .attraction-grid-13{
+        margin-top: 10070px;
+    }
+    
+    .attraction-grid-14{
+        margin-top: 10890px;
+    }
+    
+    .attraction-grid-15{
+        margin-top: 11710px;
+    }
+    
+    .attraction-grid-16{
+        margin-top: 12530px;
+    }
+    
+
+
+    .attraction-grid-box{
+        margin-bottom: 10px;
+    }
+
+    .attraction-img{
+        height: 220px;
+        width: 94%;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
