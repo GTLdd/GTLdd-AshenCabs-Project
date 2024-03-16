@@ -149,7 +149,8 @@
 
 @media(max-width: 640px){
     .privacy-container{
-        height: 3000px;
+        height: 9000px;
+        width: 100%;
     }
 
     .privacy-head{
@@ -164,7 +165,9 @@
     .attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7,
     .attraction-grid-8, .attraction-grid-9, .attraction-grid-10, .attraction-grid-11{
         display: block;
-        height: 2000px;        
+        height: 2000px;   
+        width: 90%;  
+
     }
 
     .attraction-grid-2{
@@ -206,5 +209,13 @@
 
     .attraction-grid-box{
         margin-bottom: 10px;
+    }
+
+    .attraction-img{
+        height: 220px;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 }
