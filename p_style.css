@@ -297,6 +297,7 @@
     .privacy-grid-level-1{
         display: block;
         height: 700px;
+        width: 90%;
     }
 
     .privacy-grid-level-2{
@@ -321,7 +322,8 @@
     }
 
     .privacy-grid-level-5{
-        height: 700px;
+        height: 800px;
+        width: 90%;
     }
 
     .new-img{
