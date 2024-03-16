@@ -142,14 +142,9 @@
 }
 
 
-
-
-
-
-
 @media(max-width: 640px){
     .privacy-container{
-        height: 9000px;
+        height: 90000px;
         width: 100%;
     }
 
@@ -171,15 +166,15 @@
     }
 
     .attraction-grid-2{
-        margin-top: 1141px;
+        margin-top: 1050px;
     }
     
     .attraction-grid-3{
-        margin-top: 2050px;
+        margin-top: 1870px;
     }
 
     .attraction-grid-4{
-        margin-top: 2959px;
+        margin-top: 2690px;
     }
 
     .attraction-grid-5{
@@ -213,9 +208,9 @@
 
     .attraction-img{
         height: 220px;
-        width: 90%;
+        width: 94%;
         border-radius: 10px;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-top: 10px;
     }
 }
