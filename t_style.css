@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.privacy-navBar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    box-shadow: 4px 4px 10px #11235A;
+    z-index: 1;
+}
+
+.logo{
+    height: 50px;
+    width: 85px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.logo-ATC{
+    margin-left: 30px;
+}
+
+.nav-content:first-child{
+    margin-right: auto;
+}
+
+.back{
+    color: #11235A ;
+    margin-right: 30px;
+}
+
+.privacy-container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.privacy-head-sub-sub{
+    position: absolute;
+    margin-top: 200px;
+    width: 82%;    
+}
+
+.change-privay-head{
+    font-size: 22px;
+    color: #11235A;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.change-privacy{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -425px;
+    font-size: 17px;
+    color: #11235A;
+    font-family: sans-serif;
+}
+
+.privacy-head{
+    position: absolute;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #11235A;
+    width: 82%;
+    height: 65px;
+    color: #11235A;
+
+}
+
+.flex-grid{
+    display: flex;
+    align-items: center;
+}
+
+.privacy-grid-level-1{
+    display: grid;
+    width: 82%;
+    height: 330px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 250px;
+    background-color: #11235A;
+    border-radius: 10px;
+    grid-template-rows: 320px;
+    grid-template-columns: 100%; 
+}
+
+.privacy-grid-level-2{
+    display: grid;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    grid-template-rows: 300px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.box1{
+    background-color: #11235A;
+}
+
+.box2{
+    grid-area: 1/2/2/4;
+}
+
+.inner-grid{
+    margin-left: 20px;
+}
+
+.privay-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.privacy-sub-head {
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.privacy-para{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #F0F0F085;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    line-height: 0.7cm;
+    margin-top: 45px;
+    
+}
+
+@media(max-width: 640px){
+
+    .privacy-container{
+        height: 1000px;
+    }
+
+    .privacy-grid-level-1{
+        height: 650px;
+        width: 90%;
+    }
+
+    .privacy-grid-level-2{
+        display: block;
+        width: 95%;
+    }
+
+    .privay-img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .privacy-sub-head{
+        margin-left: 1px;
+        margin-top: 50px;
+    }
+
+    .privacy-para{
+        margin-left: 1px;
+        text-align: justify;
+    }
+
+    p br{
+        display: none;
+    }
+}
+
+
