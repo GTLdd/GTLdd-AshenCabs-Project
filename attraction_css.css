@@ -36,10 +36,9 @@
 }
 
 .privacy-container{
-    height: 10000px;
+    height: 6000px;
     width: 100%;
     display: flex;
-    background-color: yellow;
     align-items: center;
     flex-direction: column;
 }
@@ -58,12 +57,12 @@
 }
 
 .attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7,
-.attraction-grid-8, .attraction-grid-9, .attraction-grid-10, .attraction-grid-11
+.attraction-grid-8, .attraction-grid-9, .attraction-grid-10, .attraction-grid-11, .attraction-grid-12, .attraction-grid-13, .attraction-grid-14,
+.attraction-grid-15, .attraction-grid-16
 {
     display: grid;
     position: absolute;
     height: 320px;
-    background-color: green;
     width: 82%;
     margin-top: 230px;
     grid-template-rows: 320px;
@@ -110,20 +109,26 @@
     margin-top: 3730px;
 }
 
-
-.box1{
-    background-color: blue;
+.attraction-grid-12{
+    margin-top: 4080px;
 }
 
-.box2{
-    background-color: white;
+.attraction-grid-13{
+    margin-top: 4430px;
 }
-.box3{
-    background-color: orange;
+
+.attraction-grid-14{
+    margin-top: 4780px;
 }
-.box4{
-    background-color: red;
+
+.attraction-grid-15{
+    margin-top: 5130px;
 }
+
+.attraction-grid-16{
+    margin-top: 5480px;
+}
+
 
 .attraction-img{
     height: 250px;
@@ -143,8 +148,9 @@
 
 
 @media(max-width: 640px){
+
     .privacy-container{
-        height: 90000px;
+        height: 13400px;
         width: 100%;
     }
 
@@ -158,9 +164,10 @@
     }
 
     .attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7,
-    .attraction-grid-8, .attraction-grid-9, .attraction-grid-10, .attraction-grid-11{
+    .attraction-grid-8, .attraction-grid-9, .attraction-grid-10, .attraction-grid-11, .attraction-grid-12, .attraction-grid-13, .attraction-grid-14,
+    .attraction-grid-15, .attraction-grid-16{
         display: block;
-        height: 2000px;   
+        height: 200px;   
         width: 90%;  
 
     }
@@ -178,28 +185,53 @@
     }
 
     .attraction-grid-5{
-        margin-top: 3868px;
+        margin-top: 3510px;
     }
 
     .attraction-grid-6{
-        margin-top: 4777px;
+        margin-top: 4330px;
     }
 
     .attraction-grid-7{
-        margin-top: 5686px;
+        margin-top: 5150px;
     }
 
     .attraction-grid-8{
-        margin-top: 6595px;
+        margin-top: 5970px;
     }
 
     .attraction-grid-9{
-        margin-top: 7504px;
+        margin-top: 6790px;
     }
 
     .attraction-grid-10{
-        margin-top: 8413px;
+        margin-top: 7610px;
     }
+    
+    .attraction-grid-11{
+        margin-top: 8430px;
+    }
+    
+    .attraction-grid-12{
+        margin-top: 9250px;
+    }
+    
+    .attraction-grid-13{
+        margin-top: 10070px;
+    }
+    
+    .attraction-grid-14{
+        margin-top: 10890px;
+    }
+    
+    .attraction-grid-15{
+        margin-top: 11710px;
+    }
+    
+    .attraction-grid-16{
+        margin-top: 12530px;
+    }
+    
 
 
     .attraction-grid-box{
