@@ -22,9 +22,9 @@
             text-decoration: none;
             color: #11235A;
             font-size: 22px;
-            margin-right: 20px;
+            font-weight:600;
+            margin-right: 5px;
             padding: 10px 15px 10px 15px;
-            border-radius: 5px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
@@ -42,10 +42,17 @@
         }
 
         .nav-content:hover{
-            box-shadow: 4px 4px 10px #11235A;
-            color: #11235A;
+            color: #285eff;
             transition: 0.8s;
+
         }
+
+        .side-nav-content:hover{
+            color: #285eff;
+            transition: 0.8s;
+
+        }
+
 
         .side-bar{
             position: fixed;
