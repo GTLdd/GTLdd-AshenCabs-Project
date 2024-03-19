@@ -13,6 +13,8 @@
             <a href="#" class="nav-content logo-ATC"><img src="./assets/ATC-C-BC.png" class="logo" alt="ATC logo"></a>
             <a href="#services" class="nav-content nav-hide">Services</a>
             <a href="#Testimonial" class="nav-content nav-hide">Testmonials</a>
+            <a href="attractions.html" class="nav-content nav-hide">Attractions</a>
+            <a href="adventures.html" class="nav-content nav-hide">Adventures</a>
             <a href="#about-us" class="nav-content nav-hide">About Us</a>
             <a href="#footer" class="nav-content nav-hide">Contact</a>
             <a href="#" class="nav-content menu" onclick="showMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-menu-button-wide menu-icon" viewBox="0 0 16 16">
@@ -30,6 +32,8 @@
             </svg></a>
             <a href="#services" class="side-nav-content" onclick="hidemenu()">Services</a>
             <a href="#Testimonial" class="side-nav-content" onclick="hidemenu()">Testmonials</a>
+            <a href="attractions.html" class="side-nav-content" onclick="hidemenu()">Attractions</a>
+            <a href="adventures.html" class="side-nav-content" onclick="hidemenu()">Adventures</a>
             <a href="#about-us" class="side-nav-content" onclick="hidemenu()">About Us</a>
             <a href="#footer" class="side-nav-content" onclick="hidemenu()">Contact</a>
         </div>
@@ -40,6 +44,12 @@
       <div class="slider-container">
         <swiper-container class="mySwiper swiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
         centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+          <swiper-slide>
+            <img src="./assets/NewHiace.jpg" class="swiper-img NewHiace" alt="NewHiace">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/hiaceNew.jpg" class="swiper-img hiaceNew" alt="hiaceNew">
+          </swiper-slide>
           <swiper-slide>
             <img src="./assets/altoNew.png" class="swiper-img altoNew" alt="altoNew">
           </swiper-slide>
@@ -60,12 +70,6 @@
           </swiper-slide>
           <swiper-slide>
             <img src="./assets/premio.jpg" class="swiper-img premio" alt="premio">
-          </swiper-slide>
-          <swiper-slide>
-            <img src="./assets/hiaceNew.jpg" class="swiper-img hiaceNew" alt="hiaceNew">
-          </swiper-slide>
-          <swiper-slide>
-            <img src="./assets/NewHiace.jpg" class="swiper-img NewHiace" alt="NewHiace">
           </swiper-slide> 
           <swiper-slide>
             <img src="./assets/minuBus.jpg" class="swiper-img miniBus" alt="miniBus">
@@ -203,8 +207,6 @@
                   <ul class="footer-ul">
                     <li><a href="privacy.html" class="footer-tags ">Privacy Policy</a> </li>
                     <li><a href="Terms.html" class="footer-tags ">Terms and Conditions</a> </li>
-                    <li><a href="attractions.html" class="footer-tags ">Attractions</a> </li>
-                    <li><a href="adventures.html" class="footer-tags ">Adventures</a> </li>
                   </ul>
               </div>
   
@@ -248,14 +250,11 @@
             var sideBar = document.querySelector(".side-bar");
 
         function showMenu(){
-            
-
             sideBar.style.marginRight= "0px";
             sideBar.style.transition= "0.8s";
         }
 
         function hidemenu(){
-
 
             sideBar.style.marginRight= "-360px";
             sideBar.style.transition= "0.8s";
