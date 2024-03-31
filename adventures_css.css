@@ -36,7 +36,7 @@
 }
 
 .privacy-container{
-    height: 2800px;
+    height: 3670px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -57,39 +57,45 @@
 
 }
 
+
+
+
 .attraction-grid, .attraction-grid-2, .attraction-grid-3, .attraction-grid-4, .attraction-grid-5, .attraction-grid-6, .attraction-grid-7
 {
     display: grid;
     position: absolute;
-    height: 320px;
+    height: 420px;
     width: 82%;
     margin-top: 230px;
-    grid-template-rows: 320px;
+    grid-template-rows: 420px;
     grid-template-columns: 33.33% 33.33% 33.33%;
+}   
+
+.attraction-grid{
 }
 
 .attraction-grid-2{
-    margin-top: 580px;
+    margin-top: 700px;
 }
 
 .attraction-grid-3{
-    margin-top: 930px;
+    margin-top: 1180px;
 }
 
 .attraction-grid-4{
-    margin-top: 1280px;
+    margin-top: 1660px;
 }
 
 .attraction-grid-5{
-    margin-top: 1630px;
+    margin-top: 2140px;
 }
 
 .attraction-grid-6{
-    margin-top: 1980px;
+    margin-top: 2620px;
 }
 
 .attraction-grid-7{
-    margin-top: 2330px;
+    margin-top: 3100px;
 }
 
 
@@ -109,6 +115,45 @@
     color: #11235A;
     margin-top: 12px;
 }
+
+.content{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 15.5px;
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 0.55cm;
+    display: flex;
+}
+
+.inner-content{
+    display: none;
+    height: 130px;
+    width: 100%;
+}
+
+
+.readMore{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #11235A;
+    color: aliceblue;
+    margin-top: 25px;
+}
+
+.readMore:hover{
+    cursor:pointer;
+}
+
+
 
 
 @media(max-width: 640px){
@@ -134,65 +179,34 @@
 
     }
 
+    .attraction-grid{
+    }
+
     .attraction-grid-2{
-        margin-top: 1050px;
+        margin-top: 1270px;
     }
     
     .attraction-grid-3{
-        margin-top: 1870px;
+        margin-top: 2315px;
     }
 
     .attraction-grid-4{
-        margin-top: 2690px;
+        margin-top: 3360px;
     }
 
     .attraction-grid-5{
-        margin-top: 3510px;
+        margin-top: 4405px;
     }
 
     .attraction-grid-6{
-        margin-top: 4330px;
+        margin-top: 5450px;
     }
 
     .attraction-grid-7{
-        margin-top: 5150px;
+        margin-top: 6495px;
     }
 
-    .attraction-grid-8{
-        margin-top: 5970px;
-    }
 
-    .attraction-grid-9{
-        margin-top: 6790px;
-    }
-
-    .attraction-grid-10{
-        margin-top: 7610px;
-    }
-    
-    .attraction-grid-11{
-        margin-top: 8430px;
-    }
-    
-    .attraction-grid-12{
-        margin-top: 9250px;
-    }
-    
-    .attraction-grid-13{
-        margin-top: 10070px;
-    }
-    
-    .attraction-grid-14{
-        margin-top: 10890px;
-    }
-    
-    .attraction-grid-15{
-        margin-top: 11710px;
-    }
-    
-    .attraction-grid-16{
-        margin-top: 12530px;
-    }
     
 
 
