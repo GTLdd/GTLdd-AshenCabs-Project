@@ -159,7 +159,7 @@
 @media(max-width: 640px){
 
     .privacy-container{
-        height: 6100px;
+        height: 10000px;
         width: 100%;
     }
 
@@ -179,31 +179,33 @@
 
     }
 
+
+
     .attraction-grid{
     }
 
     .attraction-grid-2{
-        margin-top: 1270px;
+        margin-top: 1610px;
     }
     
     .attraction-grid-3{
-        margin-top: 2315px;
+        margin-top: 2990px;
     }
 
     .attraction-grid-4{
-        margin-top: 3360px;
+        margin-top: 4370px;
     }
 
     .attraction-grid-5{
-        margin-top: 4405px;
+        margin-top: 5750px;
     }
 
     .attraction-grid-6{
-        margin-top: 5450px;
+        margin-top: 7130px;
     }
 
     .attraction-grid-7{
-        margin-top: 6495px;
+        margin-top: 8510px;
     }
 
 
@@ -212,6 +214,8 @@
 
     .attraction-grid-box{
         margin-bottom: 10px;
+        height: 450px;
+
     }
 
     .attraction-img{
