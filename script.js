@@ -9,10 +9,13 @@ function hideContent(id, btnId){
     if(contentDiv.style.display != 'block'){
         contentDiv.style.display = 'block';
         contentDiv.style.transition = '2s';
-        btn.style.marginTop = '-10px'
+        btn.style.marginTop = '8px'
+        btn.innerHTML = 'Hide';
     }else{
         contentDiv.style.display = 'none';
-        btn.style.marginTop = '25px'
+        btn.style.marginTop = '32px';
+        btn.innerHTML = 'More';
+        
 
     }
 }
