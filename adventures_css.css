@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.privacy-navBar{
+.nav-bar{
     position: fixed;
     display: flex;
     align-items: center;
@@ -15,24 +15,70 @@
     z-index: 1;
 }
 
+.nav-content, .side-nav-content{
+    text-decoration: none;
+    color: #11235A;
+    font-size: 22px;
+    font-weight:600;
+    margin-right: 5px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 .logo{
     height: 50px;
     width: 85px;
-    margin-top: -5px;
-    margin-left: 5px;
 }
 
 .logo-ATC{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .nav-content:first-child{
     margin-right: auto;
 }
 
-.back{
-    color: #11235A ;
-    margin-right: 30px;
+.nav-content:hover{
+    color: #285eff;
+    transition: 0.8s;
+
+}
+
+.side-nav-content:hover{
+    color: #285eff;
+    transition: 0.8s;
+
+}
+
+
+.side-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(233, 233, 233);;
+    right: 0;
+    top: 0;
+    padding-top: 35px;
+    padding-left: 30px;
+    margin-right: -360px;
+    z-index: 1;
+}
+
+.close-icon{
+    margin-left: 180px;
+    margin-top: -12px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu:hover{
+    background-color: white;
+    color: #11235A;
 }
 
 .privacy-container{
@@ -159,6 +205,19 @@
 
 @media(max-width: 640px){
 
+    .side-bar{
+        display: flex;
+    }
+
+    .menu-icon{
+        display: flex;
+    }
+
+    .nav-hide{
+        display: none;
+    }
+
+
     .privacy-container{
         height: 10000px;
         width: 100%;
@@ -226,4 +285,5 @@
         margin-left: 10px;
         margin-top: 10px;
     }
+
 }
