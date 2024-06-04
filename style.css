@@ -15,7 +15,7 @@
             background-color: white;
             height: 65px;
             width: 100%;
-            box-shadow: 4px 4px 10px #11235A;
+            box-shadow: 4px 5px 10px #11235A;
         }
 
         .nav-content, .side-nav-content{
@@ -29,8 +29,8 @@
         }
 
         .logo{
-            height: 50px;
-            width: 85px;
+            height: 150px;
+            width: 140px;
         }
 
         .logo-ATC{
@@ -90,6 +90,7 @@
             position: absolute;
             margin-top: 70px;
             z-index: -1;
+            
         }
 
         
@@ -192,6 +193,7 @@
             color: #11235A;
             background-color: #F0F0F075;
             z-index: -1;
+            box-shadow: 4px 14px 10px #F0F0F075;
         }
 
         .about-head, .service-head{
@@ -267,6 +269,7 @@
             color: #F0F0F0;
             background-color: #11235A ;
             z-index: -1;
+            box-shadow: 2px 8px 10px #11235A;
             
         }
 
@@ -394,6 +397,10 @@
             border-radius: 10px;
         }
 
+        .testimonial-img{
+            box-shadow: 4px 5px 10px #11235A;
+        }
+
 
 
         .footer-container{
@@ -408,6 +415,7 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             background-color: #11235A;
             z-index: -1;
+            box-shadow: 100px 4px 10px #11235A;
         }
 
         .footer-head{
